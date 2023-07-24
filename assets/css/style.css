@@ -181,20 +181,35 @@ footer a {
     color: fuchsia;
 }
 
+@media screen and (min-width: 576px) {
+    
+}
+
 @media screen and (min-width: 768px) {
-    table {
-        margin-inline: auto;
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
     h1 {
         font-size: 60px;
+    }
+    aside h2 {
+        font-weight: bold;
+        font-size: 30px;
     }
     p {
         font-size: 20px;
     }
     ul, ol {
         font-size: 20px;
+    }
+    table {
+        margin-inline: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 65%;
+    }
+    address {
+        font-size: 19px;
+    }
+    footer {
+        padding: 1em 1em;
     }
 }
 
