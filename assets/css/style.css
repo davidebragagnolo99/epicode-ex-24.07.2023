@@ -182,7 +182,27 @@ footer a {
 }
 
 @media screen and (min-width: 576px) {
-    
+        h1 {
+            font-size: 46px;
+        }
+        p, ul, ol, h2 {
+            font-size: 19px;
+        }
+        table {
+            width: 82%;
+        }
+        section h2 {
+            background-color: #adadad;
+        }
+        aside h2 {
+            font-size: 30px;
+        }
+        address {
+            font-size: 19px;
+        }
+        footer {
+            margin: 1em 3em;
+        }
 }
 
 @media screen and (min-width: 768px) {
