@@ -225,6 +225,9 @@ footer a {
     header nav ul {
         display: inline-block;
     }
+    main {
+        padding: 2em;
+    }
     p {
         font-size: 19px;
     }
@@ -237,16 +240,18 @@ footer a {
     }
     iframe {
         display: inline-block;
-        width: 45%;
+        width: 50%;
         height: 240px;
         vertical-align: middle;
+        margin-right: -2px;
     }
     section {
         display: inline-block;
-        width: 45%;
+        width: 50%;
         height: 240px;
         vertical-align: middle;
         border-radius: 20px;
+        margin-left: -2px;
     }
     aside h2 {
         font-weight: bold;
@@ -254,6 +259,13 @@ footer a {
     }
     aside div {
         display: inline-block;
+        width: 33.33%;
+        margin-right: -4px;
     }
-
+    address {
+        font-size: 21px;
+    }
+    footer {
+        padding: 1em 14em;
+    }
 }
